@@ -9,7 +9,9 @@ import { PaginatedRequirements } from '../models/paginatedRequirements.model';
 })
 export class RequirementService {
 
-  public apiUrl:string='http://localhost:8080/api';
+  //public apiUrl:string='http://localhost:8080/api';
+  
+  public apiUrl: string = 'https://trainer-springboot-backend-production-d55e.up.railway.app/api';
 
   constructor(private http:HttpClient) { }
 
