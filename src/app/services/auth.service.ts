@@ -11,7 +11,7 @@ import { ApiResponse } from '../models/apiResponse.model';
 export class AuthService {
 
  // public apiUrl: string = 'http://localhost:8080/api';
-  public apiUrl: string = ' https://trainer-springboot-backend-production-d55e.up.railway.app/api';
+  public apiUrl: string = 'https://trainer-springboot-backend-production-d55e.up.railway.app/api';
  
 
   private loggedInUserSubject = new BehaviorSubject<any>(null);
