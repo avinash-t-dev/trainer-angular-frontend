@@ -11,8 +11,10 @@ export class FeedbackService {
 
   // public apiUrl:string='http://localhost:3001/feedback';
 
-    public apiUrl:string='http://localhost:8080/api';
+   // public apiUrl:string='http://localhost:8080/api';
 
+    
+  public apiUrl: string = 'https://trainer-springboot-backend-production-d55e.up.railway.app/api';
 
 
   constructor(private http:HttpClient) { }
